@@ -15,11 +15,17 @@
 }
 
 #spoler{
-    animation: color 3s infinite;
+    animation: color 4s infinite;
     }
 
 @keyframes color {
-    from {fill:yellow}
-    50% {fill:red}
-    to {fill:yellow}
+    0% {fill:yellow;
+        left: 10px;
+        top: 10px;}
+    50% {fill:red;
+        left: 0;
+        top: 0;}
+    100% {fill:yellow;
+        right: 10px;
+        top: 10px}
 }
