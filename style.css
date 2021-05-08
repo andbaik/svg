@@ -1,9 +1,15 @@
-#wheel_1:hover, #wheel_2:hover{
+#wheel_1, #wheel_2:hover {fill:#66c541;}
+
+
+/*#wheel_1, #wheel_2:hover{fill:#464655;}*/
+
+
+/*#wheel_1:hover, #wheel_2:hover{
     cursor: pointer;
     fill: #499177 !important;
     transition: all 600ms ease;
 }
-
+*/
 #Layer_1{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
     transition: all 600ms ease;
 }
