@@ -19,7 +19,7 @@
     }
 
 @keyframes color {
-    from {fill:yellow scale(1)}
-    50% {fill:red scale(1.2)}
-    to {fill:yellow scale(1)}
+    from {fill:yellow}
+    50% {fill:red}
+    to {fill:yellow}
 }
