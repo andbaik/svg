@@ -19,13 +19,16 @@
     }
 
 @keyframes color {
-    0% {fill:yellow;
-        left: 10px;
-        top: 10px;}
+    0% {fill:red;
+        transform: translateX(0);
+    }
+
+    25% {fill:yellow;
+        transform: translateX(-10px);}
     50% {fill:red;
-        left: 0;
-        top: 0;}
-    100% {fill:yellow;
-        right: 10px;
-        top: 10px}
+        transform: translateX(0);}
+    75% {fill:yellow;
+        transform: translateX(7px);}    
+    100% {fill:red;
+       transform: translateX(0);}
 }
