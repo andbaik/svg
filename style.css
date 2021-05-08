@@ -1,0 +1,19 @@
+#wheel_1:hover, #wheel_2:hover{
+    cursor: pointer;
+    fill: #499177 !important;
+    transition: all 600ms ease;
+}
+
+#Layer_1{
+    transition: all 600ms ease;
+}
+
+#spoler{
+    animation: color 3s infinite;
+    }
+
+@keyframes color {
+    from {fill:yellow!important}
+    50% {fill:red!important}
+    to {fill:green!important}
+}
