@@ -1,10 +1,10 @@
-#wheel_2, #wheel_1{
+#wheel_2, #wheel_1 {
     cursor: pointer;
-    fill:#66c541;
+    fill:#66c541; /* здесь добавляем стиль  */
 }
-#wheel_2, #wheel_1:hover{
-    fill:red;
-}
+
+/* при наведении меняем цвет */
+#wheel_2:hover, #wheel_1:hover {fill: red}
 
 #Layer_1{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
     transition: all 600ms ease;
