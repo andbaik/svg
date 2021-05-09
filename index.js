@@ -10,21 +10,10 @@ function changeBGR() {
 let car = document.querySelector('#Layer_1');
 function moveCar(){
     console.log('Одно нажатие');
-    car.style.left = 400 + 'px';
+    car.style.transform = 'translateX(1000px)';
 }
 
 function moveCarStartPosition(){
     console.log('Двойное нажатие');
-        car.style.left = 0 + 'px';
+    car.style.transform = 'translateX(0px)';
 }
-/*
-
-
-car.addEventListener('onclick', function() {
-	console.log('одно нажатие');
-    });
-
-car.addEventListener('ondblclick', function() {
-	console.log('Двойное нажатие'); 
-});
-*/
